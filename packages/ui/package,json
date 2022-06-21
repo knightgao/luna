@@ -1,0 +1,31 @@
+{
+  "name": "@luna/ui",
+  "version": "1.0.0",
+  "description": "@luna/ui",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "keywords": [
+    "luna",
+    "vue"
+  ],
+  "author": "Knight Gao",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knightgao/luna.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knightgao/luna/issues"
+  },
+  "homepage": "https://github.com/knightgao/luna#readme",
+  "dependencies": {
+          "@luna/utils": "workspace:*",
+          "@luna/shared": "workspace:*",
+          "@luna/cli": "workspace:*",
+      }
+}
