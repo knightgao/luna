@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "@luna/cli",
   "main": "index.js",
+  "module": "index.mjs",
   "files": [
     "index.js",
     "dist"

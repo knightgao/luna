@@ -4,7 +4,8 @@
   "packageManager": "pnpm@7.3.0",
   "scripts": {
     "lint": "eslint --ext .ts packages/*/{src,__tests__}/**.ts",
-    "prepare": "husky install"
+    "ui:doc": "pnpm --filter @luna/ui docs:dev",
+    "clean": "rm -rf node_modules **/*/node_modules"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@types/node": "16",
     "@typescript-eslint/parser": "^5.29.0",
+    "@vitejs/plugin-vue": "^2.3.3",
     "chalk": "^5.0.1",
     "eslint": "^8.18.0",
     "eslint-plugin-vitest": "^0.0.8",
@@ -38,8 +40,10 @@
     "lint-staged": "^13.0.2",
     "lodash-es": "^4.17.21",
     "prettier": "^2.7.1",
+    "sass": "^1.52.3",
     "typescript": "^4.7.4",
     "vite": "^2.9.12",
+    "vitepress": "1.0.0-alpha.2",
     "vitest": "^0.15.1",
     "vue": "^3.2.37"
   }

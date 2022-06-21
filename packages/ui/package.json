@@ -13,8 +13,10 @@
   ],
   "author": "Knight Gao",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+      "docs:dev": "vitepress dev docs",
+      "docs:build": "vitepress build docs",
+      "docs:serve": "vitepress serve docs"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/knightgao/luna.git"
@@ -26,6 +28,6 @@
   "dependencies": {
           "@luna/utils": "workspace:*",
           "@luna/shared": "workspace:*",
-          "@luna/cli": "workspace:*",
+          "@luna/cli": "workspace:*"
       }
 }
